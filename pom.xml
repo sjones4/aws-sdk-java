@@ -112,6 +112,21 @@
             <version>1.2.0</version>
             <optional>true</optional>
         </dependency>
+
+         <!-- Dependencies required for building the samples.  -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>3.0.0.RELEASE</version>
+            <optional>true</optional>
+        </dependency>
+
     </dependencies>
 
     <developers>
